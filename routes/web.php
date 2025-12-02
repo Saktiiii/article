@@ -4,6 +4,7 @@ use App\Http\Controllers\ArtikelController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\BlogController;
 
 
 // Halaman Utama
@@ -27,3 +28,9 @@ Route::get('/home', function () {
 
 Route::resource('kategori', KategoriController::class)->middleware('auth');
 Route::resource('artikel', ArtikelController::class)->middleware('auth');
+
+
+Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/blog/{artikel}', [BlogController::class, 'show'])->name('blog.show');
+Route::get('/blog/kategori/{nama}', [BlogController::class, 'filterByKategori'])->name('blog.kategori');
+

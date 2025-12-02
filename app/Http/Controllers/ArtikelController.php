@@ -82,6 +82,8 @@ class ArtikelController extends Controller
         return redirect()->route('artikel.index')->with('success', 'Artikel berhasil diupdate.');
     }
 
+    
+
     public function destroy(Artikel $artikel)
     {
         if ($artikel->gambar) {

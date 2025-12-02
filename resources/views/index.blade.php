@@ -1,19 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
-  <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
+  <meta name="description"
+    content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
+  <meta name="keywords"
+    content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
   <meta name="author" content="elemis">
   <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
   <link rel="shortcut icon" href="{{ asset('sandbox/sandbox/dist') }}/assets/img/favicon.png">
   <link rel="stylesheet" href="{{ asset('sandbox/sandbox/dist') }}/assets/css/plugins.css">
   <link rel="stylesheet" href="{{ asset('sandbox/sandbox/dist') }}/assets/css/style.css">
   <link rel="stylesheet" href="{{ asset('sandbox/sandbox/dist') }}/assets/css/colors/pink.css">
-  <link rel="preload" href="{{ asset('sandbox/sandbox/dist') }}/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="{{ asset('sandbox/sandbox/dist') }}/assets/css/fonts/urbanist.css" as="style"
+    onload="this.rel='stylesheet'">
 </head>
 
 <body>
@@ -23,510 +25,78 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="{{ asset('sandbox/sandbox/dist') }}/index.html">
-              <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/logo-dark.png" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/logo-dark@2x.png 2x" alt="" />
+              <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/logo-dark.png"
+                srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/logo-dark@2x.png 2x" alt="" />
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
             <div class="offcanvas-header d-lg-none">
-              <h3 class="text-white fs-30 mb-0">Sandbox</h3>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <h3 class="text-white fs-30 mb-0">Art-cle</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
             </div>
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
               <ul class="navbar-nav">
-                <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Demos</a>
-                  <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
-                    <li class="mega-menu-content mega-menu-scroll">
-                      <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo1.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi1.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi1@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 1</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo2.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi2.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi2@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 2</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo3.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi3.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi3@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 3</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo4.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi4.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi4@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 4</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo5.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi5.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi5@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 5</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo6.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi6.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi6@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 6</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo7.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi7.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi7@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 7</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo8.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi8.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi8@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 8</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo9.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi9.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi9@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 9</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo10.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi10.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi10@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 10</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo11.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi11.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi11@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 11</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo12.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi12.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi12@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 12</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo13.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi13.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi13@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 13</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo14.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi14.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi14@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 14</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo15.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi15.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi15@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 15</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo16.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi16.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi16@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 16</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo17.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi17.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi17@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 17</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo18.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi18.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi18@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 18</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo19.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi19.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi19@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 19</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo20.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi20.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi20@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 20</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo21.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi21.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi21@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 21</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo22.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi22.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi22@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 22</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo23.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi23.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi23@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 23</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo24.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi24.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi24@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 24</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo25.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi25.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi25@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 25</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo26.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi26.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi26@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 26</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo27.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi27.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi27@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 27</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo28.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi28.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi28@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 28</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo29.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi29.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi29@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 29</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo30.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi30.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi30@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 30</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo31.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi31.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi31@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 31</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo32.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi32.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi32@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 32</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo33.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi33.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi33@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 33</span>
-                          </a>
-                        </li>
-                        <li class="col">
-                          <a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/demo34.html">
-                            <figure class="rounded lift d-none d-lg-block"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi34.jpg" srcset="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/mi34@2x.jpg 2x" alt=""></figure>
-                            <span class="d-lg-none">Demo 34</span>
-                          </a>
-                        </li>
-                      </ul>
-                      <!--/.row -->
-                      <span class="d-none d-lg-flex"><i class="uil uil-direction"></i><strong>Scroll to view more</strong></span>
-                    </li>
-                    <!--/.mega-menu-content-->
-                  </ul>
-                  <!--/.dropdown-menu -->
+            
+                <!-- Home -->
+                <li class="nav-item">
+                  <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ url('/') }}">
+                    Home
+                  </a>
                 </li>
+            
+                <!-- Blog -->
+                <li class="nav-item">
+                  <a class="nav-link {{ request()->is('blog') ? 'active' : '' }}" href="{{ url('/blog') }}">
+                    Blog
+                  </a>
+                </li>
+            
+                <!-- Kategori Dropdown -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+                  <a class="nav-link dropdown-toggle {{ request()->is('blog/kategori/*') ? 'active' : '' }}" href="#" data-bs-toggle="dropdown">
+                    Kategori
+                  </a>
                   <ul class="dropdown-menu">
-                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/services.html">Services I</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/services2.html">Services II</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">About</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/about.html">About I</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/about2.html">About II</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/shop.html">Shop I</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/shop2.html">Shop II</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/shop-product.html">Product Page</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/shop-cart.html">Shopping Cart</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/shop-checkout.html">Checkout</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Contact</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/contact.html">Contact I</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/contact2.html">Contact II</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/contact3.html">Contact III</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Career</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/career.html">Job Listing I</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/career2.html">Job Listing II</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/career-job.html">Job Description</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Utility</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/404.html">404 Not Found</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/page-loader.html">Page Loader</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/signin.html">Sign In I</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/signin2.html">Sign In II</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/signup.html">Sign Up I</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/signup2.html">Sign Up II</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/terms.html">Terms</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/pricing.html">Pricing</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/onepage.html">One Page</a></li>
+                    @foreach($kategoris as $kategori)
+                      <li>
+                        <a class="dropdown-item" href="{{ route('blog.kategori', urlencode($kategori->nama)) }}">
+                          {{ $kategori->nama }}
+                        </a>
+                      </li>
+                    @endforeach
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Projects</a>
-                  <div class="dropdown-menu dropdown-lg">
-                    <div class="dropdown-lg-content">
-                      <div>
-                        <h6 class="dropdown-header">Project Pages</h6>
-                        <ul class="list-unstyled">
-                          <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/projects.html">Projects I</a></li>
-                          <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/projects2.html">Projects II</a></li>
-                          <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/projects3.html">Projects III</a></li>
-                          <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/projects4.html">Projects IV</a></li>
-                        </ul>
-                      </div>
-                      <!-- /.column -->
-                      <div>
-                        <h6 class="dropdown-header">Single Projects</h6>
-                        <ul class="list-unstyled">
-                          <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/single-project.html">Single Project I</a></li>
-                          <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/single-project2.html">Single Project II</a></li>
-                          <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/single-project3.html">Single Project III</a></li>
-                          <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/single-project4.html">Single Project IV</a></li>
-                        </ul>
-                      </div>
-                      <!-- /.column -->
-                    </div>
-                    <!-- /auto-column -->
-                  </div>
+            
+                <!-- About -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    About
+                  </a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
-                  <ul class="dropdown-menu">
-                    <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/blog.html">Blog without Sidebar</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/blog2.html">Blog with Sidebar</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/blog3.html">Blog with Left Sidebar</a></li>
-                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog Posts</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Post without Sidebar</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/blog-post2.html">Post with Sidebar</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/blog-post3.html">Post with Left Sidebar</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+            
+                <!-- Contact -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Contact
+                  </a>
                 </li>
-                <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blocks</a>
-                  <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
-                    <li class="mega-menu-content">
-                      <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled">
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/about.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block1.svg" alt=""></div>
-                            <span>About</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/blog.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block2.svg" alt=""></div>
-                            <span>Blog</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/call-to-action.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block3.svg" alt=""></div>
-                            <span>Call to Action</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/clients.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block4.svg" alt=""></div>
-                            <span>Clients</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/contact.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block5.svg" alt=""></div>
-                            <span>Contact</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/facts.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block6.svg" alt=""></div>
-                            <span>Facts</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/faq.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block7.svg" alt=""></div>
-                            <span>FAQ</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/features.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block8.svg" alt=""></div>
-                            <span>Features</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/footer.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block9.svg" alt=""></div>
-                            <span>Footer</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/hero.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block10.svg" alt=""></div>
-                            <span>Hero</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/misc.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block17.svg" alt=""></div>
-                            <span>Misc</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/navbar.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block11.svg" alt=""></div>
-                            <span>Navbar</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/portfolio.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block12.svg" alt=""></div>
-                            <span>Portfolio</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/pricing.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block13.svg" alt=""></div>
-                            <span>Pricing</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/process.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block14.svg" alt=""></div>
-                            <span>Process</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/team.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block15.svg" alt=""></div>
-                            <span>Team</span>
-                          </a>
-                        </li>
-                        <li class="col"><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/blocks/testimonials.html">
-                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/demos/block16.svg" alt=""></div>
-                            <span>Testimonials</span>
-                          </a>
-                        </li>
-                      </ul>
-                      <!--/.row -->
-                    </li>
-                    <!--/.mega-menu-content-->
-                  </ul>
-                  <!--/.dropdown-menu -->
-                </li>
-                <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Documentation</a>
-                  <ul class="dropdown-menu mega-menu">
-                    <li class="mega-menu-content">
-                      <div class="row gx-0 gx-lg-3">
-                        <div class="col-lg-4">
-                          <h6 class="dropdown-header">Usage</h6>
-                          <ul class="list-unstyled cc-2 pb-lg-1">
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/index.html">Get Started</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/forms.html">Forms</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/faq.html">FAQ</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/changelog.html">Changelog</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/credits.html">Credits</a></li>
-                          </ul>
-                          <h6 class="dropdown-header mt-lg-6">Styleguide</h6>
-                          <ul class="list-unstyled cc-2">
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/styleguide/colors.html">Colors</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/styleguide/fonts.html">Fonts</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/styleguide/icons-svg.html">SVG Icons</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/styleguide/icons-font.html">Font Icons</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/styleguide/illustrations.html">Illustrations</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/styleguide/backgrounds.html">Backgrounds</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/styleguide/misc.html">Misc</a></li>
-                          </ul>
-                        </div>
-                        <!--/column -->
-                        <div class="col-lg-8">
-                          <h6 class="dropdown-header">Elements</h6>
-                          <ul class="list-unstyled cc-3">
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/accordion.html">Accordion</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/alerts.html">Alerts</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/animations.html">Animations</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/avatars.html">Avatars</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/background.html">Background</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/badges.html">Badges</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/buttons.html">Buttons</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/card.html">Card</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/carousel.html">Carousel</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/dividers.html">Dividers</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/form-elements.html">Form Elements</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/image-hover.html">Image Hover</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/image-mask.html">Image Mask</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/lightbox.html">Lightbox</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/player.html">Media Player</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/modal.html">Modal</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/pagination.html">Pagination</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/progressbar.html">Progressbar</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/shadows.html">Shadows</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/shapes.html">Shapes</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/tables.html">Tables</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/tabs.html">Tabs</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/text-animations.html">Text Animations</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/text-highlight.html">Text Highlight</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/tiles.html">Tiles</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/tooltips-popovers.html">Tooltips & Popovers</a></li>
-                            <li><a class="dropdown-item" href="{{ asset('sandbox/sandbox/dist') }}/docs/elements/typography.html">Typography</a></li>
-                          </ul>
-                        </div>
-                        <!--/column -->
-                      </div>
-                      <!--/.row -->
-                    </li>
-                    <!--/.mega-menu-content-->
-                  </ul>
-                  <!--/.dropdown-menu -->
-                </li>
+            
               </ul>
-              <!-- /.navbar-nav -->
+            
+              <!-- Mobile footer -->
               <div class="offcanvas-footer d-lg-none">
                 <div>
-                  <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
-                  <br /> 00 (123) 456 78 90 <br />
                   <nav class="nav social social-white mt-4">
                     <a href="#"><i class="uil uil-twitter"></i></a>
                     <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
                     <a href="#"><i class="uil uil-instagram"></i></a>
                     <a href="#"><i class="uil uil-youtube"></i></a>
                   </nav>
-                  <!-- /.social -->
                 </div>
               </div>
-              <!-- /.offcanvas-footer -->
             </div>
+            
             <!-- /.offcanvas-body -->
           </div>
           <!-- /.navbar-collapse -->
@@ -556,137 +126,41 @@
     <!-- /header -->
     <section class="wrapper bg-gray">
       <div class="container pt-10 pb-14 pb-md-16">
-        <div class="swiper-container blog grid-view mb-16" data-margin="30" data-dots="true" data-items-lg="2" data-items-md="1" data-items-xs="1">
+        <div class="swiper-container blog grid-view mb-16" data-margin="30" data-dots="true" data-items-lg="2"
+          data-items-md="1" data-items-xs="1">
           <div class="swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <figure class="overlay caption caption-overlay rounded mb-0"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb1.jpg" alt="" /></a>
-                  <figcaption>
-                    <span class="badge badge-lg bg-white text-uppercase mb-3">Places</span>
-                    <h2 class="post-title h3 mt-1 mb-3"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">The Best Moments in Venice</a></h2>
-                    <ul class="post-meta text-white mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>8 Aug 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3<span> Comments</span></a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </figcaption>
-                  <!-- /figcaption -->
-                </figure>
-                <!-- /figure -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <figure class="overlay caption caption-overlay rounded mb-0"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb2.jpg" alt="" /></a>
-                  <figcaption>
-                    <span class="badge badge-lg bg-white text-uppercase mb-3">Restaurants</span>
-                    <h2 class="post-title h3 mt-1 mb-3"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">10 Great Places in Belgium</a></h2>
-                    <ul class="post-meta text-white mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>5 Jul 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>5<span> Comments</span></a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </figcaption>
-                  <!-- /figcaption -->
-                </figure>
-                <!-- /figure -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <figure class="overlay caption caption-overlay rounded mb-0"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb3.jpg" alt="" /></a>
-                  <figcaption>
-                    <span class="badge badge-lg bg-white text-uppercase mb-3">Roadtrip</span>
-                    <h2 class="post-title h3 mt-1 mb-3"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">A Dreamy Roadtrip in Australia</a></h2>
-                    <ul class="post-meta text-white mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>23 Jun 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>8<span> Comments</span></a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </figcaption>
-                  <!-- /figcaption -->
-                </figure>
-                <!-- /figure -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <figure class="overlay caption caption-overlay rounded mb-0"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb4.jpg" alt="" /></a>
-                  <figcaption>
-                    <span class="badge badge-lg bg-white text-uppercase mb-3">Historic</span>
-                    <h2 class="post-title h3 mt-1 mb-3"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">My Love Affair with Cappadocia</a></h2>
-                    <ul class="post-meta text-white mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>15 Apr 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>9<span> Comments</span></a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </figcaption>
-                  <!-- /figcaption -->
-                </figure>
-                <!-- /figure -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <figure class="overlay caption caption-overlay rounded mb-0"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb5.jpg" alt="" /></a>
-                  <figcaption>
-                    <span class="badge badge-lg bg-white text-uppercase mb-3">Nature</span>
-                    <h2 class="post-title h3 mt-1 mb-3"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">24 Hours in a Village of Valencia</a></h2>
-                    <ul class="post-meta text-white mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Feb 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>11<span> Comments</span></a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </figcaption>
-                  <!-- /figcaption -->
-                </figure>
-                <!-- /figure -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <figure class="overlay caption caption-overlay rounded mb-0"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb6.jpg" alt="" /></a>
-                  <figcaption>
-                    <span class="badge badge-lg bg-white text-uppercase mb-3">Architecture</span>
-                    <h2 class="post-title h3 mt-1 mb-3"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">The Largest Train Station in Europe</a></h2>
-                    <ul class="post-meta text-white mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>22 Jan 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>8<span> Comments</span></a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </figcaption>
-                  <!-- /figcaption -->
-                </figure>
-                <!-- /figure -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <figure class="overlay caption caption-overlay rounded mb-0"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb7.jpg" alt="" /></a>
-                  <figcaption>
-                    <span class="badge badge-lg bg-white text-uppercase mb-3">Nature</span>
-                    <h2 class="post-title h3 mt-1 mb-3"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">The Natural Places in Brazil</a></h2>
-                    <ul class="post-meta text-white mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>2 Jan 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>14<span> Comments</span></a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </figcaption>
-                  <!-- /figcaption -->
-                </figure>
-                <!-- /figure -->
-              </div>
-              <!--/.swiper-slide -->
+              @foreach ($artikels as $artikel)
+                <div class="swiper-slide">
+                  <figure class="overlay caption caption-overlay rounded mb-0">
+                    <a href="{{ url('blog/' . $artikel->id) }}">
+                      <img src="{{ asset('storage/' . $artikel->gambar) }}" alt="{{ $artikel->judul }}" />
+                    </a>
+                    <figcaption>
+                      <span
+                        class="badge badge-lg bg-white text-uppercase mb-3">{{ $artikel->kategori->nama ?? 'Uncategorized' }}</span>
+                      <h2 class="post-title h3 mt-1 mb-3">
+                        <a href="{{ url('blog/' . $artikel->id) }}">{{ $artikel->judul }}</a>
+                      </h2>
+                      <ul class="post-meta text-white mb-0">
+                        <li class="post-date"><i
+                            class="uil uil-calendar-alt"></i><span>{{ $artikel->created_at->format('d M Y') }}</span></li>
+                        <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
+                        <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3<span> Comments</span></a>
+                        </li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </div>
+              @endforeach
             </div>
-            <!--/.swiper-wrapper -->
           </div>
-          <!-- /.swiper -->
         </div>
-        <!-- /.swiper-container -->
+
         <div class="row">
           <div class="col-lg-12 col-xl-10 col-xxl-8 mx-auto text-center">
-            <h2 class="display-5 text-center mt-4 mb-10">Hello! I'm Caitlyn. Welcome to my blog. Here on this blog you will be able to find travel diary with traveling tips.</h2>
+            <h2 class="display-5 text-center mt-4 mb-10">Hello! I'm Caitlyn. Welcome to my blog. Here on this blog you
+              will be able to find travel diary with traveling tips.</h2>
           </div>
           <!--/column -->
         </div>
@@ -694,12 +168,6 @@
         <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0 text-center">
           <div class="col-md-6 col-lg-4 mx-auto">
             <div class="card shadow-lg">
-              <figure class="card-img-top overlay overlay-1">
-                <a href="#"><img class="img-fluid" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/f1.jpg" alt="" /></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">Read Details</h5>
-                </figcaption>
-              </figure>
               <div class="card-body p-5">
                 <h4 class="mb-0">About Me</h4>
               </div>
@@ -710,12 +178,6 @@
           <!--/column -->
           <div class="col-md-6 col-lg-4 mx-auto">
             <div class="card shadow-lg">
-              <figure class="card-img-top overlay overlay-1">
-                <a href="#"><img class="img-fluid" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/f2.jpg" alt="" /></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">See Destinations</h5>
-                </figcaption>
-              </figure>
               <div class="card-body p-5">
                 <h4 class="mb-0">Destinations</h4>
               </div>
@@ -726,12 +188,6 @@
           <!--/column -->
           <div class="col-md-6 col-lg-4 mx-auto">
             <div class="card shadow-lg">
-              <figure class="card-img-top overlay overlay-1">
-                <a href="#"><img class="img-fluid" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/f3.jpg" alt="" /></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">Follow Me</h5>
-                </figcaption>
-              </figure>
               <div class="card-body p-5">
                 <h4 class="mb-0">Instagram</h4>
               </div>
@@ -745,285 +201,65 @@
         <div class="row gx-lg-8 gx-xl-12 mt-17">
           <div class="col-lg-8">
             <div class="blog classic-view">
-              <article class="post">
-                <div class="card shadow-lg">
-                  <figure class="card-img-top overlay overlay-1"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb8.jpg" alt="" /></a>
-                    <figcaption>
-                      <h5 class="from-top mb-0">Read More</h5>
-                    </figcaption>
-                  </figure>
-                  <div class="card-body">
-                    <div class="post-header">
-                      <div class="post-category">
-                        <a href="#" class="hover link-grape" rel="category">Architecture</a>
+
+              @foreach ($artikels as $artikel)
+                <article class="post">
+                  <div class="card shadow-lg">
+                    <figure class="card-img-top overlay overlay-1">
+                      <a href="{{ route('blog.show', $artikel->id) }}">
+                        @if($artikel->gambar)
+                          <img src="{{ asset('storage/' . $artikel->gambar) }}" alt="{{ $artikel->judul }}" />
+                        @else
+                          <img src="{{ asset('sandbox/sandbox/dist/assets/img/photos/default.jpg') }}" alt="default" />
+                        @endif
+                      </a>
+                      <figcaption>
+                        <h5 class="from-top mb-0">Read More</h5>
+                      </figcaption>
+                    </figure>
+                    <div class="card-body">
+                      <div class="post-header">
+                        <div class="post-category">
+                          <a href="#" class="hover link-grape"
+                            rel="category">{{ $artikel->kategori->nama ?? 'Uncategorized' }}</a>
+                        </div>
+                        <h2 class="post-title mt-1 mb-0">
+                          <a class="link-navy" href="{{ route('blog.show', $artikel->id) }}">{{ $artikel->judul }}</a>
+                        </h2>
                       </div>
-                      <!-- /.post-category -->
-                      <h2 class="post-title mt-1 mb-0"><a class="link-navy" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Amet Dolor Bibendum Parturient Cursus</a></h2>
-                    </div>
-                    <!-- /.post-header -->
-                    <div class="post-content">
-                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.</p>
-                    </div>
-                    <!-- /.post-content -->
-                  </div>
-                  <!--/.card-body -->
-                  <div class="card-footer">
-                    <ul class="post-meta d-flex mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>5 Jul 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3<span> Comments</span></a></li>
-                      <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>3</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </div>
-                  <!-- /.card-footer -->
-                </div>
-                <!-- /.card -->
-              </article>
-              <!-- /.post -->
-              <article class="post">
-                <div class="card shadow-lg">
-                  <figure class="card-img-top overlay overlay-1"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb9.jpg" alt="" /></a>
-                    <figcaption>
-                      <h5 class="from-top mb-0">Read More</h5>
-                    </figcaption>
-                  </figure>
-                  <div class="card-body">
-                    <div class="post-header">
-                      <div class="post-category">
-                        <a href="#" class="hover link-fuchsia" rel="category">Restaurants</a>
+                      <div class="post-content">
+                        <p>{{ \Illuminate\Support\Str::limit(strip_tags($artikel->isi), 150, '...') }}</p>
                       </div>
-                      <!-- /.post-category -->
-                      <h2 class="post-title mt-1 mb-0"><a class="link-navy" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Fringilla Ligula Pharetra Amet</a></h2>
                     </div>
-                    <!-- /.post-header -->
-                    <div class="post-content">
-                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.</p>
+                    <div class="card-footer">
+                      <ul class="post-meta d-flex mb-0">
+                        <li class="post-date"><i
+                            class="uil uil-calendar-alt"></i><span>{{ $artikel->created_at->format('d M Y') }}</span></li>
+                        <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Admin</span></a></li>
+                        <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>0<span> Comments</span></a>
+                        </li>
+                        <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>0</a></li>
+                      </ul>
                     </div>
-                    <!-- /.post-content -->
                   </div>
-                  <!--/.card-body -->
-                  <div class="card-footer">
-                    <ul class="post-meta d-flex mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>25 Jun 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>5<span> Comments</span></a></li>
-                      <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>4</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </div>
-                  <!-- /.card-footer -->
-                </div>
-                <!-- /.card -->
-              </article>
-              <!-- /.post -->
-              <article class="post">
-                <div class="card shadow-lg">
-                  <div class="card-img-top">
-                    <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="hxeITyt_XfU"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="post-header">
-                      <div class="post-category">
-                        <a href="#" class="hover link-sky" rel="category">Nature</a>
-                      </div>
-                      <!-- /.post-category -->
-                      <h2 class="post-title mt-1 mb-0"><a class="link-navy" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Consectetur Bibendum Sollicitudin Vulputate</a></h2>
-                    </div>
-                    <!-- /.post-header -->
-                    <div class="post-content">
-                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.</p>
-                    </div>
-                    <!-- /.post-content -->
-                  </div>
-                  <!--/.card-body -->
-                  <div class="card-footer">
-                    <ul class="post-meta d-flex mb-0">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>18 May 2022</span></li>
-                      <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>8<span> Comments</span></a></li>
-                      <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>6</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </div>
-                  <!-- /.card-footer -->
-                </div>
-                <!-- /.card -->
-              </article>
-              <!-- /.post -->
+                </article>
+              @endforeach
+
             </div>
-            <!-- /.blog -->
-            <div class="blog grid grid-view">
-              <div class="row isotope gx-md-8 gy-8 mb-8">
-                <article class="item post col-md-6">
-                  <div class="card shadow-lg">
-                    <figure class="card-img-top overlay overlay-1"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb10.jpg" alt="" /></a>
-                      <figcaption>
-                        <h5 class="from-top mb-0">Read More</h5>
-                      </figcaption>
-                    </figure>
-                    <div class="card-body">
-                      <div class="post-header">
-                        <div class="post-category">
-                          <a href="#" class="hover link-yellow" rel="category">Roadtrip</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h2 class="post-title h3 mt-1 mb-3"><a class="link-navy" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Ligula tristique quis risus</a></h2>
-                      </div>
-                      <!-- /.post-header -->
-                      <div class="post-content">
-                        <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.</p>
-                      </div>
-                      <!-- /.post-content -->
-                    </div>
-                    <!--/.card-body -->
-                    <div class="card-footer">
-                      <ul class="post-meta d-flex mb-0">
-                        <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
-                        <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>4</a></li>
-                        <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>5</a></li>
-                      </ul>
-                      <!-- /.post-meta -->
-                    </div>
-                    <!-- /.card-footer -->
-                  </div>
-                  <!-- /.card -->
-                </article>
-                <!-- /.post -->
-                <article class="item post col-md-6">
-                  <div class="card shadow-lg">
-                    <figure class="card-img-top overlay overlay-1"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb11.jpg" alt="" /></a>
-                      <figcaption>
-                        <h5 class="from-top mb-0">Read More</h5>
-                      </figcaption>
-                    </figure>
-                    <div class="card-body">
-                      <div class="post-header">
-                        <div class="post-category">
-                          <a href="#" class="hover link-aqua" rel="category">Historic</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h2 class="post-title h3 mt-1 mb-3"><a class="link-navy" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Nullam id dolor elit id nibh</a></h2>
-                      </div>
-                      <!-- /.post-header -->
-                      <div class="post-content">
-                        <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.</p>
-                      </div>
-                      <!-- /.post-content -->
-                    </div>
-                    <!--/.card-body -->
-                    <div class="card-footer">
-                      <ul class="post-meta d-flex mb-0">
-                        <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
-                        <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3</a></li>
-                        <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>3</a></li>
-                      </ul>
-                      <!-- /.post-meta -->
-                    </div>
-                    <!-- /.card-footer -->
-                  </div>
-                  <!-- /.card -->
-                </article>
-                <!-- /.post -->
-                <article class="item post col-md-6">
-                  <div class="card shadow-lg">
-                    <figure class="card-img-top overlay overlay-1"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb12.jpg" alt="" /></a>
-                      <figcaption>
-                        <h5 class="from-top mb-0">Read More</h5>
-                      </figcaption>
-                    </figure>
-                    <div class="card-body">
-                      <div class="post-header">
-                        <div class="post-category">
-                          <a href="#" class="hover link-orange" rel="category">Cities</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h2 class="post-title h3 mt-1 mb-3"><a class="link-navy" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Ultricies fusce porta elit</a></h2>
-                      </div>
-                      <!-- /.post-header -->
-                      <div class="post-content">
-                        <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.</p>
-                      </div>
-                      <!-- /.post-content -->
-                    </div>
-                    <!--/.card-body -->
-                    <div class="card-footer">
-                      <ul class="post-meta d-flex mb-0">
-                        <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
-                        <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>6</a></li>
-                        <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>3</a></li>
-                      </ul>
-                      <!-- /.post-meta -->
-                    </div>
-                    <!-- /.card-footer -->
-                  </div>
-                  <!-- /.card -->
-                </article>
-                <!-- /.post -->
-                <article class="item post col-md-6">
-                  <div class="card shadow-lg">
-                    <figure class="card-img-top overlay overlay-1"><a href="#"> <img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/tb13.jpg" alt="" /></a>
-                      <figcaption>
-                        <h5 class="from-top mb-0">Read More</h5>
-                      </figcaption>
-                    </figure>
-                    <div class="card-body">
-                      <div class="post-header">
-                        <div class="post-category">
-                          <a href="#" class="hover link-leaf" rel="category">Beaches</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h2 class="post-title h3 mt-1 mb-3"><a class="link-navy" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Morbi leo risus porta eget</a></h2>
-                      </div>
-                      <div class="post-content">
-                        <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.</p>
-                      </div>
-                      <!-- /.post-content -->
-                    </div>
-                    <!--/.card-body -->
-                    <div class="card-footer">
-                      <ul class="post-meta d-flex mb-0">
-                        <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
-                        <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>2</a></li>
-                        <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>5</a></li>
-                      </ul>
-                      <!-- /.post-meta -->
-                    </div>
-                    <!-- /.card-footer -->
-                  </div>
-                  <!-- /.card -->
-                </article>
-                <!-- /.post -->
-              </div>
-              <!-- /.row -->
-            </div>
-            <!-- /.blog -->
+
+            <!-- Pagination -->
             <nav class="d-flex" aria-label="pagination">
-              <ul class="pagination pagination-alt">
-                <li class="page-item disabled">
-                  <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true"><i class="uil uil-arrow-left"></i></span>
-                  </a>
-                </li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true"><i class="uil uil-arrow-right"></i></span>
-                  </a>
-                </li>
-              </ul>
-              <!-- /.pagination -->
+              {{ $artikels->links('pagination::bootstrap-4') }}
             </nav>
-            <!-- /nav -->
           </div>
-          <!-- /column -->
+
           <aside class="col-lg-4 sidebar mt-8 mt-lg-0">
             <div class="widget">
               <h4 class="widget-title mb-3">About Me</h4>
-              <figure class="rounded mb-4"><img class="img-fluid" src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/f1.jpg" alt="" /></figure>
-              <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+              <figure class="rounded mb-4"><img class="img-fluid"
+                  src="{{ asset('sandbox/sandbox/dist/assets/img/photos/f1.jpg') }}" alt="About Me" /></figure>
+              <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. Nulla vitae elit
+                libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
               <nav class="nav social">
                 <a href="#"><i class="uil uil-twitter"></i></a>
                 <a href="#"><i class="uil uil-facebook-f"></i></a>
@@ -1031,64 +267,64 @@
                 <a href="#"><i class="uil uil-instagram"></i></a>
                 <a href="#"><i class="uil uil-youtube"></i></a>
               </nav>
-              <!-- /.social -->
             </div>
-            <!-- /.widget -->
+
             <div class="widget">
               <h4 class="widget-title mb-3">Popular Posts</h4>
               <ul class="image-list">
+                {{-- Contoh hardcode, bisa diganti dengan query populer --}}
                 <li>
-                  <figure class="rounded"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a4.jpg" alt="" /></a></figure>
+                  <figure class="rounded"><a href="#"><img
+                        src="{{ asset('sandbox/sandbox/dist/assets/img/photos/a4.jpg') }}" alt="Popular Post 1" /></a>
+                  </figure>
                   <div class="post-content">
-                    <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Magna Mollis Ultricies</a> </h6>
+                    <h6 class="mb-2"><a class="link-dark" href="#">Magna Mollis Ultricies</a></h6>
                     <ul class="post-meta">
                       <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Mar 2022</span></li>
                       <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3</a></li>
                     </ul>
-                    <!-- /.post-meta -->
                   </div>
                 </li>
                 <li>
-                  <figure class="rounded"> <a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a5.jpg" alt="" /></a></figure>
+                  <figure class="rounded"><a href="#"><img
+                        src="{{ asset('sandbox/sandbox/dist/assets/img/photos/a5.jpg') }}" alt="Popular Post 2" /></a>
+                  </figure>
                   <div class="post-content">
-                    <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Ornare Nullam Risus</a> </h6>
+                    <h6 class="mb-2"><a class="link-dark" href="#">Ornare Nullam Risus</a></h6>
                     <ul class="post-meta">
                       <li class="post-date"><i class="uil uil-calendar-alt"></i><span>16 Feb 2022</span></li>
                       <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>6</a></li>
                     </ul>
-                    <!-- /.post-meta -->
                   </div>
                 </li>
                 <li>
-                  <figure class="rounded"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a6.jpg" alt="" /></a></figure>
+                  <figure class="rounded"><a href="#"><img
+                        src="{{ asset('sandbox/sandbox/dist/assets/img/photos/a6.jpg') }}" alt="Popular Post 3" /></a>
+                  </figure>
                   <div class="post-content">
-                    <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Euismod Nullam Fusce</a> </h6>
+                    <h6 class="mb-2"><a class="link-dark" href="#">Euismod Nullam Fusce</a></h6>
                     <ul class="post-meta">
                       <li class="post-date"><i class="uil uil-calendar-alt"></i><span>8 Jan 2022</span></li>
                       <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>5</a></li>
                     </ul>
-                    <!-- /.post-meta -->
                   </div>
                 </li>
               </ul>
-              <!-- /.image-list -->
             </div>
-            <!-- /.widget -->
+
             <div class="widget">
               <h4 class="widget-title mb-3">Categories</h4>
               <ul class="unordered-list bullet-primary text-reset">
-                <li><a href="#">Lifestyle (21)</a></li>
-                <li><a href="#">Photography (19)</a></li>
-                <li><a href="#">Journal (16)</a></li>
-                <li><a href="#">Works (7)</a></li>
-                <li><a href="#">Conceptual (12)</a></li>
-                <li><a href="#">Videography (14)</a></li>
+                @foreach($kategoris as $kategori)
+                  <li><a href="#">{{ $kategori->nama }} ({{ $kategori->artikels_count ?? 0 }})</a></li>
+                @endforeach
               </ul>
             </div>
-            <!-- /.widget -->
+
             <div class="widget">
               <h4 class="widget-title mb-3">Tags</h4>
               <ul class="list-unstyled tag-list">
+                {{-- Bisa diganti dinamis --}}
                 <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Still Life</a></li>
                 <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Urban</a></li>
                 <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Nature</a></li>
@@ -1099,7 +335,7 @@
                 <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Photography</a></li>
               </ul>
             </div>
-            <!-- /.widget -->
+
             <div class="widget">
               <h4 class="widget-title mb-3">Archive</h4>
               <ul class="unordered-list bullet-primary text-reset">
@@ -1110,9 +346,7 @@
                 <li><a href="#">October 2018</a></li>
               </ul>
             </div>
-            <!-- /.widget -->
           </aside>
-          <!-- /column .sidebar -->
         </div>
         <!-- /.row -->
       </div>
@@ -1128,9 +362,11 @@
           <h4 class="widget-title text-white mb-3">Popular Posts</h4>
           <ul class="image-list">
             <li>
-              <figure class="rounded"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a4.jpg" alt="" /></a></figure>
+              <figure class="rounded"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img
+                    src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a4.jpg" alt="" /></a></figure>
               <div class="post-content">
-                <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Magna Mollis Ultricies</a> </h6>
+                <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Magna
+                    Mollis Ultricies</a> </h6>
                 <ul class="post-meta">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Mar 2022</span></li>
                 </ul>
@@ -1138,9 +374,11 @@
               </div>
             </li>
             <li class="mt-5">
-              <figure class="rounded"> <a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a5.jpg" alt="" /></a></figure>
+              <figure class="rounded"> <a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img
+                    src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a5.jpg" alt="" /></a></figure>
               <div class="post-content">
-                <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Ornare Nullam Risus</a> </h6>
+                <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Ornare
+                    Nullam Risus</a> </h6>
                 <ul class="post-meta">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>16 Feb 2022</span></li>
                 </ul>
@@ -1148,9 +386,11 @@
               </div>
             </li>
             <li class="mt-5">
-              <figure class="rounded"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a6.jpg" alt="" /></a></figure>
+              <figure class="rounded"><a href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html"><img
+                    src="{{ asset('sandbox/sandbox/dist') }}/assets/img/photos/a6.jpg" alt="" /></a></figure>
               <div class="post-content">
-                <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Euismod Nullam Fusce</a> </h6>
+                <h6 class="mb-2"> <a class="link-dark" href="{{ asset('sandbox/sandbox/dist') }}/blog-post.html">Euismod
+                    Nullam Fusce</a> </h6>
                 <ul class="post-meta">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>8 Jan 2022</span></li>
                 </ul>
